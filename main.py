@@ -25,9 +25,6 @@ for y in range(0,9,2):
 for i in range(0,11):
     canvas.create_rectangle((200+i*20,200+i*20),(220+i*20,220+i*20),fill="darkgreen")
     canvas.create_rectangle((400-i*20,200+i*20),(380-i*20,220+i*20),fill="yellow")
-
-    #canvas.create_line((0,i*20,200,i*20))
-    #canvas.create_line((i*20, 0, i*20, 200))
 #
 #
 
